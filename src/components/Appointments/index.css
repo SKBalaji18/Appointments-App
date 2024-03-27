@@ -1,0 +1,138 @@
+* {
+  font-family: 'Roboto';
+  margin: 0px;
+}
+
+.bg-container {
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 40px;
+  width: 60%;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 90%;
+  margin: 20px 0px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 90%;
+}
+
+.img-container {
+  padding: 10px;
+  width: 90%;
+}
+
+.appointments-img {
+  height: 150px;
+  width: 100%;
+}
+label {
+  color: #b5b7c4;
+  font-size: 16px;
+}
+
+input {
+  color: #171f46;
+  border: 1px solid #b5b7c4;
+  border-radius: 8px;
+  width: 90%;
+  font-size: 16px;
+  padding: 8px;
+  margin: 10px 0px;
+  outline: none;
+}
+
+.submit-button {
+  background-color: #8b5cf6;
+  padding: 8px 20px;
+  color: #ffffff;
+  font-size: 16px;
+  border: 0px;
+  margin: 10px 0px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+hr {
+  border: 1px solid #b5b7c4;
+}
+
+.Appointment-filter-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0px;
+}
+
+.starred-button {
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 20px;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.star-filtered {
+  background-color: #9897f0;
+  border: 0px;
+  color: #ffffff;
+}
+
+.star-not-filtered {
+  background-color: transparent;
+  border: 2px solid #9897f0;
+  color: #9897f0;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.page-head {
+  color: #171f46;
+  font-size: 42px;
+}
+.app-container-head{
+  color: #171f46;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 760px) {
+  .img-container {
+    display: none;
+  }
+
+  .appointments-img {
+    display: none;
+  }
+  .card-container {
+    width: 80%;
+  }
+  .page-head {
+    color: #171f46;
+    font-size: 28px;
+  }
+}

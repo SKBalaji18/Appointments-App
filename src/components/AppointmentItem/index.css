@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.head-star-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+  padding: 20px;
+  border: 1px solid #b5b7c4;
+  border-radius: 10px;
+  margin: 10px;
+  width: 30%;
+}
+
+.app-head {
+  font-size: 18px;
+  color: #171f46;
+  font-weight: 500;
+}
+
+.app-date {
+  font-size: 14px;
+  color: #b5b7c4;
+  font-weight: 400;
+  margin-top: 6px;
+}
+
+.str-img {
+  height: 20px;
+  width: 20px;
+}
+
+.str-btn {
+  background-color: transparent;
+  padding: 0px;
+  cursor: pointer;
+  border: 0px;
+  outline: none;
+}
+
+@media screen and (max-width: 760px) {
+  li {
+    width: 100%;
+  }
+}
